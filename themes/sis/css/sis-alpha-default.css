@@ -143,7 +143,8 @@
     width: 100%;
 }
 #zone-branding {
-    background: url("../images/headerTemplate-sm-grey.png") repeat scroll 0 0 transparent;
+    /*background: url("../images/headerTemplate-sm-grey.png") repeat scroll 0 0 transparent;*/
+    background:none;
     height: 117px;
     margin-top: -0.7em;
    *margin-top: 1.6em; /*ie 7 and below */

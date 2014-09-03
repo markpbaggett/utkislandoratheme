@@ -35,7 +35,8 @@ padding-top:20px;
 }
 
 #section-content {
-	background:transparent  url(../images/bg_content.jpg)  right bottom no-repeat;
+	/*background:transparent  url(../images/bg_content.jpg)  right bottom no-repeat;*/
+	background:none;
 	padding-bottom: 85px;
 }
 
@@ -675,5 +676,11 @@ h2.node-title a:hover {
 .more-link {
      text-align: left;
      background: url("/sites/default/files/Calendar_24x24.png") no-repeat scroll right transparent;
+}
+
+/* Added by Mark to Match with Libraries */
+/* Also Changed lines 38 & 39 */
+header#section-header {
+	background: url(http://www.lib.utk.edu/template/2013/images/interface/bg-body.jpg) repeat-x rgb(255, 255, 255);
 }
 
