@@ -1,0 +1,26 @@
+div#splashpagecontent {
+	width: 100%;
+}
+
+div#leftside {
+	width: 35%;
+	float: left;
+}
+
+div#rightside {
+	width: 60%;
+	float: right;
+}
+
+h1#page-title {
+	display:none;
+}
+
+.breadcrumb {
+	display: none;
+}
+
+div#banner-container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
