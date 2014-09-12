@@ -5,11 +5,13 @@ div#splashpagecontent {
 div#leftside {
 	width: 35%;
 	float: left;
+	padding-top:5em;
 }
 
 div#rightside {
 	width: 60%;
 	float: right;
+	padding-top:5em;
 }
 
 h1#page-title {
@@ -23,4 +25,29 @@ h1#page-title {
 div#banner-container {
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+div#splashnav {
+	width: 100%;
+	padding-top:3em;
+	padding-bottom: 10em;
+	display: inline
+}
+
+div#splashintro {
+	width: 30%;
+	float: left;
+	display: inline;
+}
+
+div#splashbrowse {
+	width: 30%;
+	display: inline;
+	float: left;
+}
+
+div#splashsearch {
+	width: 30%;
+	float: right;
+	display: inline;
 }
