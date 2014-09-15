@@ -683,26 +683,3 @@ h2.node-title a:hover {
 header#section-header {
 	background: url(http://www.lib.utk.edu/template/2013/images/interface/bg-body.jpg) repeat-x rgb(255, 255, 255);
 }
-
-div#region-splashsearch {
-	float: right;
-}
-
-
-/* Added by Mark to Style Search */
-input#edit-collection-query-term {
-	display: inline;
-}
-
-select#edit-collection-select {
-	width: 40%;
-	float: left;
-}
-
-input#edit-collection-query-term {
-	width: 30%;
-}
-
-div#region-splashbanner {
-	margin-bottom: 1em;
-}

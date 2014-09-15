@@ -49,3 +49,30 @@ div#splashsearch {
 	float: right;
 	display: inline;
 }
+
+div#region-splashsearch {
+	float: right;
+}
+
+/* Added by Mark to Style Search */
+input#edit-collection-query-term {
+	display: inline;
+}
+
+select#edit-collection-select {
+	width: 40%;
+	float: left;
+}
+
+input#edit-collection-query-term {
+	width: 30%;
+}
+
+div#region-splashbanner {
+	margin-bottom: 1em;
+}
+
+select#edit-collection-select {
+	margin-right:1em;
+}
+
