@@ -60,7 +60,7 @@ input#edit-collection-query-term {
 }
 
 select#edit-collection-select {
-	width: 40%;
+	width: 50%;
 	float: left;
 }
 
