@@ -5,6 +5,7 @@ div#splashpagecontent {
 div#leftside {
 	width: 35%;
 	float: left;
+	text-align: center;
 }
 
 div#rightside {
