@@ -76,3 +76,13 @@ select#edit-collection-select {
 	margin-right:1em;
 }
 
+a#splashintrotext {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+a#splashbrowsetext {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
