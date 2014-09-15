@@ -5,13 +5,11 @@ div#splashpagecontent {
 div#leftside {
 	width: 35%;
 	float: left;
-	padding-top:5em;
 }
 
 div#rightside {
 	width: 60%;
 	float: right;
-	padding-top:5em;
 }
 
 h1#page-title {

@@ -702,3 +702,7 @@ select#edit-collection-select {
 input#edit-collection-query-term {
 	width: 30%;
 }
+
+div#region-splashbanner {
+	margin-bottom: 1em;
+}
