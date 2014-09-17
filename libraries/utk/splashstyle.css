@@ -86,22 +86,3 @@ a#splashbrowsetext {
 	font-weight: bold;
 	font-size: 1.5em;
 }
-
-/* For the Main Page */
-.feed-icon.clearfix {
-	display: none;
-}
-
-ul.links.inline {
-	display: none;
-}
-
-img.digcolimg {
-	border: 2px solid;
-	border-radius: 25px;
-}
-
-.digcolcontatin {
-	text-align: center;
-	float: left;
-}
