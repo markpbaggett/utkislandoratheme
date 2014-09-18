@@ -12,5 +12,8 @@ jQuery(document).ready(function() {
 		else if (jQuery(this).html() == "gsmrc:derris"){
 			jQuery(this).html("The William Derris Slide Collection");
 		}
+		else if (jQuery(this).html() == "collections:gsmrc"){
+			jQuery(this).html("Great Smoky Mountains Regional Collection");
+		}
 	});
 });
