@@ -38,3 +38,8 @@ div#region-splashbanner {
 select#edit-collection-select {
 	margin-right:1em;
 }
+
+/* Hide Clip Image Text Since It Doesn't Work */
+a#clip {
+	display: none;
+}
