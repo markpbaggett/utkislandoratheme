@@ -43,3 +43,8 @@ select#edit-collection-select {
 a#clip {
 	display: none;
 }
+
+/* Round Facets */
+section#block-islandora-solr-basic-facets {
+	border-radius: 5px;
+}
