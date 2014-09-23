@@ -8,4 +8,8 @@ jQuery(document).ready(function() {
 		jQuery(("option[value='gsmrc:derris']")).prependTo("#edit-collection-select");
 		jQuery(("option[value='gsmrc:derris']")).attr('selected','selected');
 	}
+	
+	/* ID Images in Content */
+	jQuery("#leftside > img").attr('id','splashpageimg');
+	jQuery("#rightside > img").attr('id','splashpageimg');
 });

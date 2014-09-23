@@ -90,3 +90,21 @@ a#splashbrowsetext {
 div#edit-collection-search {
 	font-size: 80%;
 }
+
+/* Rounding Corners on Images & Search Boxes to Match Theme */
+
+select#edit-collection-select {
+	border-radius: 5px;
+}
+
+input#edit-collection-query-term {
+	border-radius: 5px;
+}
+
+#splashpageimg {
+	border-radius: 5px;
+}
+
+#splash-logo {
+	border-radius: 5px;
+}
