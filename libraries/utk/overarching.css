@@ -52,12 +52,14 @@ section#block-islandora-solr-basic-facets {
 /* NAVIGATION */
 .navigationtop {
   width: 100%;
-  text-transform: uppercase;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .navigationtop li {
   float: left;
   list-style-type: none;
+  font-size: 1.1em;
 }
 
 .navigationtop a {
@@ -96,6 +98,7 @@ section#block-islandora-solr-basic-facets {
 	float: none;
 	list-style-type: none;
 	margin-bottom:0px;
+	font-size: 0.9em;
 }
 
 .subNavigation li a {
