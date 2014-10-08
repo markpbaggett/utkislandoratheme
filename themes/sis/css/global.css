@@ -630,9 +630,10 @@ td.views-field.views-field-picture img{
 .colorbox img {
    margin-top: 1em;
 }
+/* Removed by Mark
 .block a:link {
      color: #517C96;
-}
+} */
 .block a:hover {
      color: #F77F00;
 }

@@ -108,3 +108,22 @@ input#edit-collection-query-term {
 #splash-logo {
 	border-radius: 5px;
 }
+
+/* Correct Spacing Problems */
+div#zone-menu {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+a.librarynavlink {
+	color: black;
+}
+
+/* Fix Banner Spacing */
+li.clear {
+	margin-bottom: 0px;
+}
+
+li.navigationItem {
+	margin-bottom: 0px;
+}

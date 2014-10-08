@@ -16,4 +16,8 @@ jQuery(document).ready(function() {
 			jQuery(this).html("Great Smoky Mountains Regional Collection");
 		}
 	});
+	
+	/* Fix Names in Dropdown List */
+	jQuery(("option[value='gsmrc:derris']")).html("William Derris Slide Collection");
+	jQuery(("option[value='gsmrc:adams']")).html("Paul J. Adams Photograph Collection");
 });
