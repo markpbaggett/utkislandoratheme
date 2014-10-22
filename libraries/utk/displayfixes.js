@@ -15,6 +15,15 @@ jQuery(document).ready(function() {
 		else if (jQuery(this).html() == "collections:gsmrc"){
 			jQuery(this).html("Great Smoky Mountains Regional Collection");
 		}
+		else if (jQuery(this).html() == "gsmrc:adams"){
+			jQuery(this).html("Paul J. Adams Photograph Collection");
+		}
+		else if (jQuery(this).html() == "collections:sanborn"){
+			jQuery(this).html("Sanborn Fire Insurance Maps Collection");
+		}
+		else if (jQuery(this).html() == "gsmrc:kintner"){
+			jQuery(this).html("Panoramic Images of Elgin P. Kintner, M.D.");
+		}	
 	});
 	
 	/* Fix Names in Dropdown List */
