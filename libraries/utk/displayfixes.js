@@ -29,4 +29,5 @@ jQuery(document).ready(function() {
 	/* Fix Names in Dropdown List */
 	jQuery(("option[value='gsmrc:derris']")).html("William Derris Slide Collection");
 	jQuery(("option[value='gsmrc:adams']")).html("Paul J. Adams Photograph Collection");
+	jQuery(("option[value='gsmrc:kintner']")).html("Panoramic Images of Elgin P. Kintner, M.D.");
 });
