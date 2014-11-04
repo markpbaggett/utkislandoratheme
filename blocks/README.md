@@ -24,11 +24,13 @@ Each custom block is assigned a region in which it lives.  This is done through 
 
 #### How to Assign Blocks to a Region:
 
-You can assign a block to a region by clicking **Structure > Blocks** in the Admin bar. 
+You can assign a block to a region by clicking **Structure > Blocks** in the Admin bar. Here is an example:
 
 ![Image of Assigning Blocks to a Region](http://dlwork.lib.utk.edu/mark/images/BlockAssignmentExample.png "Assigning Blocks to a Region")
 
 #### Theme Related Blocks (Appears on All Pages)
+
+There are several blocks that must be turned on in order to make the theme work.  These blocks should work out of the box with the existing CSS and JS.
 
 **Giving Block**
 
@@ -92,7 +94,7 @@ You can assign a block to a region by clicking **Structure > Blocks** in the Adm
 
 #### Collection Specific Blocks
 
-There are 4 blocks associated with each collection: a banner, an introduction link, a browse link, and Content for the splash page.  Follow the example below for each collection.
+There are 4 blocks associated with each collection: a banner, an introduction link, a browse link, and Content for the splash page.  The example below can be used for each subsequent collection:
 
 **Derris Slide Banner**
 
@@ -132,6 +134,8 @@ These are the blocks used by Islandora itself.
 ---
 
 #### Other Required Blocks
+
+There are a few blocks that are Drupal related that need to be turned on.  They are:
 
 **User Login**
 
