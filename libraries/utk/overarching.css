@@ -131,3 +131,9 @@ section#block-islandora-solr-basic-facets {
 div#zone-menu {
 	background: none;
 }
+
+/* Fix Branding */
+div#zone-branding {
+	background: url(../../themes/sis/images/bg-mast-1260.png);
+}
+
