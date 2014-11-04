@@ -1,12 +1,20 @@
+# UT Libraries Islandora Theme
+
+---
+
 These are the relavent files from the SIS theme we are using and modifying. There are two sets of directories, each having contents which go the the sites/all/[name] in the drupal installation. If the contents exist in the drupal install already, they do not need to be overwritten. (i.e look in each directory in sites/all/, if there is a directory in the corresponding directory here which is not in the drupal install, then copy it accordingly.)
 
-libraries/
-   -> put all of these in /path/to/drupal/sites/all/libraries
+####libraries/
+* put all of these in /path/to/drupal/sites/all/libraries
 
-themes/
-   -> put in /path/to/drupal/sites/all/themes
-   -- omega is needed by sis and utk
+####themes/
+* put in /path/to/drupal/sites/all/themes
+* omega is needed by sis and utk
 
+####blocks/
+
+* this directory contains the markup for all custom blocks
+* the **Readme** in this directory also includes all the assignments that must be made through the Drupal interface
 
 
 
