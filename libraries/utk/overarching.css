@@ -12,9 +12,20 @@ img.digcolimg {
 	border-radius: 25px;
 }
 
+
+/* For Digital Collections Page */
 .digcolcontatin {
 	text-align: center;
 	float: left;
+	max-width: 100%;
+	width: 30%;
+}
+
+.rightdigcolcontatin {
+	text-align: center;
+	float: left;
+	max-width: 100%;
+	width: 30%;
 }
 
 /* For Search Box */
