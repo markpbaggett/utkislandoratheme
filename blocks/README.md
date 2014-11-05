@@ -1,9 +1,10 @@
 # Islandora Blocks / Regions Definitions
 ---
-#### Introduction
-This document defines each custom block and the region to which it is assigned within the SIS theme.  We are not using the UTK theme as default.  Here is a list of things that need to be checked before doing anything else:
+#### Introduction and Things to do First
+This document defines each custom block and the region to which it is assigned within the SIS theme.  It also lists all the existing Content sections and what they are set to. We are not using the UTK theme as default.  Here is a list of things that need to be checked before doing anything else:
 
 * We are using **SIS** as our theme--not UTK.  Make sure that SIS is set to default.
+* We are using the Seven theme for the theme for our Admin screens.  This must be enabled.
 * **Content Authoring** for **Text Formats** must be edited so that **plain text** has no enabled filters.  You can edit this from the configuration menu:
 
 ![Image of Content Authoring Settings](http://dlwork.lib.utk.edu/mark/images/ContentAuthoring.png "Content Authoring Settings for Plain Text")
@@ -12,7 +13,7 @@ This document defines each custom block and the region to which it is assigned w
 
 ---
 
-#### Regions
+#### An Explanation of Regions within the SIS Theme
 
 Our theme is divided into zones and regions.  [This document](https://docs.google.com/drawings/d/15E0t9Xd40OV-TteZ0Qs8OiSNY0xT3xc8gVp9yRnH5ss/edit?usp=sharing) demonstrates how each zone and region is defined.  
 
@@ -129,7 +130,18 @@ There are 4 blocks associated with each collection: a banner, an introduction li
 
 #### Islandora System Blocks
 
-These are the blocks used by Islandora itself.
+These are the blocks required by Islandora:
+
+**Islandora displays**
+
+* Assigned to Content
+* Appears on all pages
+
+**Islandora Facets**
+
+* Assigned to Sidebar First
+* Appears on all pages
+
 
 ---
 
@@ -142,5 +154,34 @@ There are a few blocks that are Drupal related that need to be turned on.  They 
 * Assigned to Sidebar First
 * Appears only on *login
 	* Note: You may need to create the login page through Content
-	
 
+**Main Page Content**
+
+* Assigned to Content in both **SIS and Seven (administration theme)**
+* Appears on All Pages
+
+**System Help**
+
+* Assigned to Content in both **SIS and Seven (administration theme)**
+* Appears on All Pages
+
+---
+
+#### Content 
+
+The Content section of the Admin interface includes all custom pages.  Here is a list of what's currently defined:
+
+**Digital Collections**
+
+* URL alias is set to index
+* It has a body section.  See the html file for BasicPage_digitalcollections for how this is defined.
+
+**Login**
+
+* URL alias is set to login
+* It does not have a body
+
+**Derris Collection**
+
+* URL alias is set to derriscollection
+* It does not have a body
