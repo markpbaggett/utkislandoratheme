@@ -107,6 +107,8 @@ input#edit-collection-query-term {
 
 #splash-logo {
 	border-radius: 5px;
+	display: block;
+	margin: auto;
 }
 
 /* Correct Spacing Problems */
