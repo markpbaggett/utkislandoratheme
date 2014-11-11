@@ -117,7 +117,7 @@ There are 4 blocks associated with each collection: a banner, an introduction li
 * Assigned to Splash Browse
 * Appears only on:
 	* \*derriscollection (or whatever the alias is for the page created through **Content**)
-	* *derris: (this is what makes things appear on individual item pages--use whatever the child PID begins with)
+	* \*derris: (this is what makes things appear on individual item pages--use whatever the child PID begins with)
 	* \*gsmrc:derris (this is what makes things appear on browse--use whatever the parent PID is)
 
 **Derris Splash Page**
