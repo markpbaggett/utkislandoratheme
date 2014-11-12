@@ -16,6 +16,12 @@ blocks/
 * this directory contains the markup for all custom blocks
 * the Readme in this directory also includes all the assignments that must be made through the Drupal interface
 
+sevendlwork/
+
+* this directory contains the css needed to make the admin section on dlwork look diffently than on production
+* the path for these files are /dev/themes/seven
+
+
 
 
 
