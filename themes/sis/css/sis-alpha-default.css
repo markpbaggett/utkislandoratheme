@@ -334,3 +334,13 @@ nav ul#nav1, nav ul#audience-nav, ul#toolbox     {
     margin-right: 0;
     margin-top: 0;
 }
+
+/* Hide Propogating Nav */
+div#region-menu {
+	display: none;
+}
+
+/* Islandora Collections Page */
+section.one-half.column {
+	width: 47%;
+}
