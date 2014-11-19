@@ -39,4 +39,14 @@ jQuery(document).ready(function() {
 	jQuery(("option[value='gsmrc:derris']")).html("William Derris Slide Collection");
 	jQuery(("option[value='gsmrc:adams']")).html("Paul J. Adams Photograph Collection");
 	jQuery(("option[value='gsmrc:kintner']")).html("Panoramic Images of Elgin P. Kintner, M.D.");
+	jQuery(("option[value='cDanielEdCartoon:cDanielCauses']")).remove();
+	jQuery(("option[value='cDanielEdCartoon:cDanielInternat']")).remove();
+	jQuery(("option[value='cDanielEdCartoon:cDanielKnoxvl']")).remove();	
+	jQuery(("option[value='cDanielEdCartoon:cDanielLabor']")).remove();
+	jQuery(("option[value='cDanielEdCartoon:cDanielNatPol']")).remove();
+	jQuery(("option[value='cDanielEdCartoon:cDanielSports']")).remove();
+	jQuery(("option[value='cDanielEdCartoon:cDanielTVA']")).remove();
+	jQuery(("option[value='cDanielEdCartoon:cDanielTaxes']")).remove();	
+	jQuery(("option[value='cDanielEdCartoon:cDanielTenn']")).remove();
+	jQuery(("option[value='cDanielEdCartoon:cDanielUT']")).remove();	
 });
