@@ -8,6 +8,14 @@ jQuery(document).ready(function() {
 		jQuery(("option[value='gsmrc:derris']")).prependTo("#edit-collection-select");
 		jQuery(("option[value='gsmrc:derris']")).attr('selected','selected');
 	}
+	if ( collectionname == 'http://digital.lib.utk.edu/collections/danielcartooncollection'){
+		jQuery(("option[value='collections:cDanielEdCartoon']")).prependTo("#edit-collection-select");
+		jQuery(("option[value='collections:cDanielEdCartoon']")).attr('selected','selected');
+	}
+	if ( collectionname == 'http://digital.lib.utk.edu/collections/sanbornmapcollection'){
+		jQuery(("option[value='collections:sanborn']")).prependTo("#edit-collection-select");
+		jQuery(("option[value='collections:sanborn']")).attr('selected','selected');
+	}	
 	
 	/* ID Images in Content */
 	jQuery("#leftside > img").attr('id','splashpageimg');
