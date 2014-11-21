@@ -37,6 +37,10 @@ jQuery(document).ready(function() {
 		else if ((pagetitle) == "Sanborn Fire Insurance Maps"){
 			jQuery("#page-title").remove();
 		}
+		else if ((pagetitle) == "Panoramic Images of Elgin P. Kintner, M.D. "){
+			jQuery("#page-title").remove();
+		}
+				
 	/* Fix Names in Dropdown List */
 	jQuery(("option[value='gsmrc:derris']")).html("William Derris Slide Collection");
 	jQuery(("option[value='gsmrc:adams']")).html("Paul J. Adams Photograph Collection");

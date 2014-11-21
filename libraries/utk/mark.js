@@ -16,6 +16,10 @@ jQuery(document).ready(function() {
 		jQuery(("option[value='collections:sanborn']")).prependTo("#edit-collection-select");
 		jQuery(("option[value='collections:sanborn']")).attr('selected','selected');
 	}	
+	if ( collectionname == 'http://digital.lib.utk.edu/collections/kintnercollection'){
+		jQuery(("option[value='gsmrc:kintner']")).prependTo("#edit-collection-select");
+		jQuery(("option[value='gsmrc:kintner']")).attr('selected','selected');
+	}
 	
 	/* ID Images in Content */
 	jQuery("#leftside > img").attr('id','splashpageimg');
