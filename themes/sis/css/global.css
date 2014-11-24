@@ -684,3 +684,92 @@ h2.node-title a:hover {
 header#section-header {
 	background: url(http://www.lib.utk.edu/template/2013/images/interface/bg-body.jpg) repeat-x rgb(255, 255, 255);
 }
+
+/* NAVIGATION */
+.navigationtop {
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.navigationtop li {
+  float: left;
+  list-style-type: none;
+  font-size: 1.1em;
+}
+
+.navigationtop a {
+	font-family: Cambria, Helvetica, sans-serif;
+	padding: 8px 25px;
+	display: block;
+	color: #000000;
+	font-weight: normal;
+	font-size: 0.9em;
+	border-bottom: 0;
+	border-right: 1px solid #c2c2c2;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
+	background: #f1f1f1;
+	font-size: 0.9em;
+	text-decoration: none;
+}
+
+.navigationtop a:hover,
+.navigationtop li.active > a {
+  background: #111;
+  color: #5F97B8;
+}
+
+/* SUBNAVIGATION */
+.subNavigation {
+  position: absolute;
+  display: none;
+  list-style:none;
+  z-index:110;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.subNavigation li {
+	float: none;
+	list-style-type: none;
+	margin-bottom:0px;
+	font-size: 0.9em;
+}
+
+.subNavigation li a {
+	background-image: none !important;
+	width: 125px;
+	text-align: left;
+	border: none;
+	font-family: Cambria, Helvetica, sans-serif;
+	padding: 8px 25px;
+	display: block;
+	color: #000000;
+	font-weight: normal;
+	border-bottom: 0;
+	border-right: 1px solid #c2c2c2;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
+	background: #f1f1f1;
+}
+
+.subNavigation li:last-child a {
+}
+
+.subNavigation li a:hover {
+}
+
+.clear {
+	clear: both;
+}
+
+/* Menu */
+div#zone-menu {
+	background: none;
+}
+
+/* Fix Branding */
+div#zone-branding {
+	background: url(../../sis/images/bg-mast-1260.png);
+}
+
