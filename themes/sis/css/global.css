@@ -713,11 +713,12 @@ header#section-header {
 	text-decoration: none;
 }
 
+/*
 .navigationtop a:hover,
 .navigationtop li.active > a {
   background: #111;
   color: #5F97B8;
-}
+}*/
 
 /* SUBNAVIGATION */
 .subNavigation {
