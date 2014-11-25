@@ -1652,6 +1652,11 @@ img.alignright {
 	margin-top: 26px;
 }
 
+/* Added to Hide Navigation for Mobile When Bigger than Mobile */
+select#navselect {
+	display: none;
+}
+
 }
 
 /* 600px */
