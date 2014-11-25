@@ -2096,3 +2096,10 @@ tr{
 
 }
   }
+
+/* Hiding Navigation for Mobile */
+@media screen and (max-width: 480px){
+	ul.navigationtop {
+		display: none;
+	}
+}
