@@ -129,3 +129,8 @@ li.clear {
 li.navigationItem {
 	margin-bottom: 0px;
 }
+
+/* Derris Technical Information */
+p#DerrisTech {
+	font-size: 85%;
+}
