@@ -20,7 +20,11 @@ jQuery(document).ready(function() {
 		jQuery(("option[value='gsmrc:kintner']")).prependTo("#edit-collection-select");
 		jQuery(("option[value='gsmrc:kintner']")).attr('selected','selected');
 	}
-	
+	if ( collectionname == 'http://digital.lib.utk.edu/collections/adamscollection'){
+		jQuery(("option[value='gsmrc:adams']")).prependTo("#edit-collection-select");
+		jQuery(("option[value='gsmrc:adams']")).attr('selected','selected');
+	}
+		
 	/* ID Images in Content */
 	jQuery("#leftside > img").attr('id','splashpageimg');
 	jQuery("#rightside > img").attr('id','splashpageimg');
