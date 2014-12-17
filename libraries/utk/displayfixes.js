@@ -43,10 +43,12 @@ jQuery(document).ready(function() {
 		else if ((pagetitle) == "Adams Splash Page"){
 			jQuery("#page-title").remove();
 		}
-		else if ((pagetitle) == "WWII Oral Histories"){
+		else if ((pagetitle) == "WWII Oral Histories Splash Page"){
 			jQuery("#page-title").remove();
 		}
-		
+		else if ((pagetitle) == "Howard Baker Splash Page"){
+			jQuery("#page-title").remove();
+		}
 				
 	/* Fix Names in Dropdown List */
 	jQuery(("option[value='gsmrc:derris']")).html("William Derris Slide Collection");
