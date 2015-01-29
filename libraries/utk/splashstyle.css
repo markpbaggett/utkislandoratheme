@@ -134,3 +134,22 @@ li.navigationItem {
 p#DerrisTech {
 	font-size: 85%;
 }
+
+/* Gallery Stuff for Baker*/
+.GalleryImageOut {
+	background: #517c96;
+	padding: 6px;
+}
+.GalleryImageIn {
+	background: #517c96;
+	padding: 6px;
+	border: 1px solid #f77f00;
+}
+.GalleyContent {
+	background: #ffffff;
+}
+.GalleryImageIn > h3 {
+	color: #ffffff;
+	font-family: Arial;
+	margin-bottom: 0px;
+}
