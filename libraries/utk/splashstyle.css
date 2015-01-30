@@ -140,16 +140,27 @@ p#DerrisTech {
 	background: #517c96;
 	padding: 6px;
 }
+
 .GalleryImageIn {
 	background: #517c96;
 	padding: 6px;
-	border: 1px solid #f77f00;
+	border: 1px solid #ffffff;
 }
+
 .GalleyContent {
 	background: #ffffff;
 }
+
 .GalleryImageIn > h3 {
 	color: #ffffff;
 	font-family: Arial;
+	margin-bottom: 0px;
+}
+
+#zone-postscript {
+	border-top: none;
+}
+
+#ExploreHeading {
 	margin-bottom: 0px;
 }

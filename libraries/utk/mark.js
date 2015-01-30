@@ -24,6 +24,9 @@ jQuery(document).ready(function() {
 		jQuery(("option[value='gsmrc:adams']")).prependTo("#edit-collection-select");
 		jQuery(("option[value='gsmrc:adams']")).attr('selected','selected');
 	}
+	if ( collectionname == 'http://digital.lib.utk.edu/collections/bakercollection'){
+		jQuery(("option[value='collections:mpabaker']")).prependTo("#edit-collection-select");
+		jQuery(("option[value='collections:mpabaker']")).attr('selected','selected');
 		
 	/* ID Images in Content */
 	jQuery("#leftside > img").attr('id','splashpageimg');

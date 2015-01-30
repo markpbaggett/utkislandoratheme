@@ -24,6 +24,9 @@ jQuery(document).ready(function() {
 		else if (jQuery(this).html() == "gsmrc:kintner"){
 			jQuery(this).html("Panoramic Images of Elgin P. Kintner, M.D.");
 		}	
+		else if (jQuery(this).html() == "collections:mpabaker"){
+			jQuery(this).html("Photographs from the Life and Career of Howard Baker");
+		}
 	});
 	
 		/* Remove Collection Titles from Splash Pages*/
