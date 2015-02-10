@@ -67,4 +67,12 @@ jQuery(document).ready(function() {
 	jQuery(("option[value='cDanielEdCartoon:cDanielTaxes']")).remove();	
 	jQuery(("option[value='cDanielEdCartoon:cDanielTenn']")).remove();
 	jQuery(("option[value='cDanielEdCartoon:cDanielUT']")).remove();	
+
+	/* Remove \ from Breadcrumbs */
+	jQuery(".breadcrumbanchor").each(function(i) {
+		var breadcrumbvalue = jQuery(this).html();
+		var newbreadcrumb = breadcrumbvalue.replace(/\\/gi, "");
+		jQuery(this).html(newbreadcrumb);
+	});
+
 });
